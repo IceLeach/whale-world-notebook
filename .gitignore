@@ -1,0 +1,13 @@
+# 临时文件与抓取缓存
+.scratch/
+*.tmp
+*.log
+
+# 系统文件
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# 编辑器
+.vscode/
+.idea/

@@ -21,6 +21,8 @@
 | 本工作区 ACL 已修复（补 `WRITE_OWNER`），备份与回滚命令在 `D:\EX DSH\acl-recovery` | `diagnose-windows-sandbox-acl` 运行结果 | 已证实 | 2026-11-08 |
 | 大肥鱼的初始形象体在 `D:\EX DSH\whale-world\dafeiyu`，纯 Markdown、相对路径、可整份复制 | 本轮创建 | 已证实 | 2026-11-08 |
 | `dafeiyu` 的可见文件刻意不含「世界之声 / 角色扮演 / 设定」等元词；她不知道世界之声存在 | `dafeiyu\_meta\design-notes.md` 设计约定 | 已证实 | 2026-11-08 |
+| 笔记本 GitHub 仓库：https://github.com/IceLeach/whale-world-notebook | 主人 2026-11-08 提供 | 已证实 | 2026-11-08 |
+| 首次提交 `83567bc`（39 文件，1142 行），已推送 `main`，远程 HEAD 一致 | `git log` / `git ls-remote` 验证 | 已证实 | 2026-11-08 |
 
 ## 写作规范
 

@@ -23,6 +23,10 @@
 | `dafeiyu` 的可见文件刻意不含「世界之声 / 角色扮演 / 设定」等元词；她不知道世界之声存在 | `dafeiyu\_meta\design-notes.md` 设计约定 | 已证实 | 2026-11-08 |
 | 笔记本 GitHub 仓库：https://github.com/IceLeach/whale-world-notebook | 主人 2026-11-08 提供 | 已证实 | 2026-11-08 |
 | 首次提交 `83567bc`（39 文件，1142 行），已推送 `main`，远程 HEAD 一致 | `git log` / `git ls-remote` 验证 | 已证实 | 2026-11-08 |
+| 大肥鱼的物种设定：蓝色虎鲸（主人 2026-11-09 修正，原为蓝鲸） | 主人 2026-11-09 指令 | 已证实 | 2026-11-09 |
+| 大肥鱼记忆体 v0.2：日记按「第 N 天」分文件，愿望用「第几天」，新增 `now.md` / `归档/` / 收工清单 | 本轮修改 | 已证实 | 2026-11-09 |
+| dafeiyu GitHub 仓库：https://github.com/IceLeach/whale-world-origin | 主人 2026-11-09 提供 | 已证实 | 2026-11-09 |
+| dafeiyu 首次提交 `ed2b16d`（23 文件，590 行），已推送 `main` | `git log` / `git ls-remote` 验证 | 已证实 | 2026-11-09 |
 
 ## 写作规范
 

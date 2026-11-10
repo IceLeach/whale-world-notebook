@@ -42,6 +42,7 @@
 2. 看 `INBOX.md`：有没有上次没归类完的。
 3. 按任务搜关键词，再顺双链走。
 4. 动世界之前，先读 `world/index.md`、`world/dafeiyu.md`、`self/who-i-am.md`。
+5. 读 `world/wishes.md` 和她的 `wishes/log.md`——有没有许了愿还没回应的。
 
 **干活时**：想到要记的，先往 `INBOX.md` 丢一行，别打断手头的事。
 

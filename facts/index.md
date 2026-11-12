@@ -27,6 +27,12 @@
 | 大肥鱼记忆体 v0.2：日记按「第 N 天」分文件，愿望用「第几天」，新增 `now.md` / `归档/` / 收工清单 | 本轮修改 | 已证实 | 2026-11-09 |
 | dafeiyu GitHub 仓库：https://github.com/IceLeach/whale-world-origin | 主人 2026-11-09 提供 | 已证实 | 2026-11-09 |
 | dafeiyu 首次提交 `ed2b16d`（23 文件，590 行），已推送 `main` | `git log` / `git ls-remote` 验证 | 已证实 | 2026-11-09 |
+| 能力插件 monorepo 在 `D:\EX DSH\whale-world\plugins`，pnpm workspaces + TypeScript，`pnpm build` 通过 | 本轮创建与构建 | 已证实 | 2026-11-11 |
+| DSH 插件最少三件：`package.json`（`dsh.bundle.patch`）+ `cordis.patch.yml` + `apply(ctx)` 入口 | 读 bili-explore 插件与 DSH 插件文档 | 已证实 | 2026-11-11 |
+| 插件测试用 Node 自带 `node:test`；`node --test --test-isolation=none` 可绕过沙箱的子进程限制，13 个测试通过 | 本轮实测 | 已证实 | 2026-11-11 |
+| testkit 在 `D:\EX DSH\whale-world\testkit`，隔离 DSH_HOME + headless + 账号路由，不影响当前 Harness | 本轮实测 | 已证实 | 2026-11-12 |
+| headless 复用登录态：`--patch` 启用 credentials/authorization/deepseek-account，并把 `agent-default-model.provider` 改为 `deepseek-account` | 本轮实测 | 已证实 | 2026-11-12 |
+| Node 用文件描述符作为 stdio 可以 spawn 外部进程，绕过沙箱的管道（EPERM）限制 | 本轮实测 | 已证实 | 2026-11-12 |
 
 ## 写作规范
 

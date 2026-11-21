@@ -5,6 +5,7 @@
 ## 位置
 
 - 项目：`D:\EX DSH\whale-world\testkit`
+- GitHub：https://github.com/IceLeach/dsh-testkit
 - 隔离 home：`testkit\home`（含登录态副本，已 gitignore）
 - 被测插件：`D:\EX DSH\whale-world\plugins\packages\<name>`
 

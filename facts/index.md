@@ -33,6 +33,11 @@
 | testkit 在 `D:\EX DSH\whale-world\testkit`，隔离 DSH_HOME + headless + 账号路由，不影响当前 Harness | 本轮实测 | 已证实 | 2026-11-12 |
 | headless 复用登录态：`--patch` 启用 credentials/authorization/deepseek-account，并把 `agent-default-model.provider` 改为 `deepseek-account` | 本轮实测 | 已证实 | 2026-11-12 |
 | Node 用文件描述符作为 stdio 可以 spawn 外部进程，绕过沙箱的管道（EPERM）限制 | 本轮实测 | 已证实 | 2026-11-12 |
+| testkit GitHub 仓库：https://github.com/IceLeach/dsh-testkit | 主人提供 + `git push` 验证 | 已证实 | 2026-11-12 |
+| 插件 monorepo GitHub 仓库：https://github.com/IceLeach/dsh-whale-world-plugins；首次提交 `cbf91a6`，音乐插件提交 `7e038d8` | 主人提供 + `git log` / `git ls-remote` 验证 | 已证实 | 2026-11-21 |
+| MuseScore Studio 4.7.7 在 `C:\Program Files\MuseScore 4\bin\MuseScore4.exe`；`MuseScore4.exe -o out.wav in.musicxml` 可直接导出 wav | `--version` + 实测导出 | 已证实 | 2026-11-21 |
+| MuseScore 导出的 wav 是 44.1kHz 立体声 32-bit float（`soundfile` 读作 FLOAT） | `soundfile` 读 `test.wav` / `sea-run.wav` | 已证实 | 2026-11-21 |
+| MusicXML 同一声部左右手缺 `<backup>` 会让 MuseScore 时长翻倍；显式 `<sound tempo>` 实测被解析成一半 | 实测：同一首曲子 123 秒 vs 60 秒 | 已证实 | 2026-11-21 |
 
 ## 写作规范
 

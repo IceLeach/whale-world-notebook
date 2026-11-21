@@ -13,8 +13,9 @@
 | 能力插件（plugins） | 能力以 DSH 插件形式提供，monorepo 独立发 npm 包 | `core` / `hello` / `tts` 三包；已推 GitHub（`cbf91a6`） | 发 npm 包；补 CI | 2026-11-20 |
 | 插件测试环境（testkit） | 隔离跑 headless 测插件运行时，不影响当前 Harness | 可用：hello 场景 6/6 | 补更多场景；接 CI | 2026-11-12 |
 | TTS（tts） | 本地训练大肥鱼的声音，插件调用她说话 | 模型训练完成；插件 `dsh-whale-tts` 可用（`whale_speak`） | 设置页验收；发布插件 | 2026-11-20 |
+| 乐谱渲染（music） | 大肥鱼写 MusicXML，插件渲染成 wav | 插件 `dsh-whale-music` 完成；试作《海边奔跑》63 秒 | 加 16-bit 导出；乐谱预览 | 2026-11-21 |
 
-项目档案：[[projects/testkit]]（插件测试环境）、[[projects/tts]]（TTS 模型与插件配置）
+项目档案：[[projects/testkit]]（插件测试环境）、[[projects/tts]]（TTS 模型与插件配置）、[[projects/music]]（音乐插件与试作）
 
 ## 规矩
 
